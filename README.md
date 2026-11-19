@@ -2,21 +2,23 @@
 
 Aqui reuni os projetos que desenvolvi durante o curso de Engenharia de Qualidade de Software da EBAC. Ao longo das aulas e dos exercícios, fui colocando em prática diferentes formas de testar uma aplicação, desde os primeiros testes de interface até automação de API, pipelines, containers e testes mobile.
 
-Organizei os trabalhos por assunto para facilitar a navegação e mostrar um pouco dessa evolução. Em cada seção deixei os links para o código e para as instruções de execução. Alguns projetos foram crescendo ao longo do curso, por isso aparecem em mais de uma etapa do portfólio.
+Organizei os trabalhos por assunto para facilitar a navegação e mostrar um pouco dessa evolução. Em cada seção deixei os links para o código, os documentos e as instruções de execução. Alguns projetos foram crescendo ao longo do curso, por isso aparecem em mais de uma etapa do portfólio.
+
+Para uma primeira leitura, a tabela abaixo leva direto à área de interesse. O [estudo de IA](estudo-ia/estudo-de-caso.md) também pode ser lido aqui no GitHub, com a história, os critérios, o plano de testes e o registro das conversas com o agente.
 
 ## Visão geral
 
 | Área | Tecnologias e práticas |
 | --- | --- |
-| Automação de UI | Cypress, JavaScript, Node.js, testes end-to-end |
-| API REST | Cypress, Postman, autenticação e operações CRUD |
-| DevOps | GitHub Actions, Jenkins e relatórios Allure |
-| Containers | Dockerfile e Docker Compose |
-| Automação de UI avançada | BDD com Cucumber, Intercept e App Actions |
-| Performance | JMeter e K6 |
-| Mobile | Appium, WebdriverIO, Mocha e Android |
-| Testes de unidade | Jest, valores limite e cobertura de condições e decisões |
-| Inteligência Artificial | Projeto previsto para inclusão posterior |
+| [Automação de UI](#1-automação-de-ui-com-cypress) | Cypress, JavaScript, Node.js, testes end-to-end |
+| [API REST](#2-testes-automatizados-de-api-rest) | Cypress, Postman, autenticação e operações CRUD |
+| [DevOps](#3-devops-e-integração-contínua) | GitHub Actions, Jenkins e relatórios Allure |
+| [Containers](#4-projeto-com-docker) | Dockerfile e Docker Compose |
+| [Automação de UI avançada](#5-automação-de-ui-com-cypress--avançado) | BDD com Cucumber, Intercept e App Actions |
+| [Performance](#6-testes-de-performance) | JMeter e K6 |
+| [Mobile](#7-automação-mobile-com-appium) | Appium, WebdriverIO, Mocha e Android |
+| [Testes de unidade](#8-testes-de-unidade-com-javascript) | Jest, valores limite e cobertura de condições e decisões |
+| [Inteligência Artificial](#9-testes-com-inteligência-artificial) | Análise de requisitos, critérios de aceitação e planejamento de testes |
 
 ## 1. Automação de UI com Cypress
 
@@ -142,16 +144,19 @@ Ao todo, são **19 cenários**. Testei as idades de 17, 18 e 19 anos para trabal
 
 ## 9. Testes com Inteligência Artificial
 
-**Status: a desenvolver.**
+Neste estudo do módulo 30, usei um agente de IA para analisar uma história do Hub de Leitura sobre bloqueio de usuários por atraso na devolução de livros. Pedi ajuda para identificar ambiguidades, propor critérios de aceitação e gerar cenários de teste. Depois revisei as respostas, solicitei complementos e identifiquei cenários repetidos.
 
-Ainda falta concluir o projeto de IA aplicada a testes. Assim que estiver pronto, vou incluir aqui o que foi desenvolvido, o link do repositório e os resultados.
+O material é um estudo documental de análise e planejamento. Organizei a apresentação começando pela história, pelos 14 critérios refinados e pelo plano de testes. Na sequência, mantive os prompts e as respostas registrados no exercício, incluindo a proposta de consolidação de 30 para 25 cenários ou esquemas.
+
+Os esclarecimentos com produto foram simulados, e quatro cenários continuam marcados como condicionais. Os cenários foram planejados; este estudo não inclui implementação nem evidência de execução.
+
+- [Ler o estudo e as conversas no GitHub](estudo-ia/estudo-de-caso.md)
+- [Versão para apresentação em PDF](estudo-ia/analise-de-requisitos-e-testes-com-ia.pdf)
+- [Versão editável em Word](estudo-ia/analise-de-requisitos-e-testes-com-ia.docx)
+- [Documento original do exercício](Modulo%2030%20-%20Cria%C3%A7%C3%A3o%20crit%C3%A9rios%20e%20cen%C3%A1rios%20de%20teste%20com%20IA.docx)
 
 ## Como explorar os projetos
 
 Para conhecer melhor ou executar algum dos projetos, é só abrir o repositório e seguir as instruções do README. Nos exercícios com Docker, os links já apontam para a branch correspondente.
 
 Os trabalhos fazem parte dos meus estudos na EBAC e usam aplicações, exemplos e projetos-base fornecidos ao longo do curso. As referências estão nos respectivos repositórios.
-
-## Referência
-
-Usei o [portfólio de Engenharia de Qualidade da EBAC](https://github.com/ebacqualidade/qa-portfolio) como referência para organizar os projetos que desenvolvi durante o curso.
